@@ -5,7 +5,7 @@ tags: Recent Posts, Releases
 ---
 
 Ember Data 19.1 contains fixes for a few regressions. Thanks to everyone
-who reported issues. Thanks to @bmac and @wecc for fixing!
+who reported issues. Thanks to [@bmac](https://github.com/bmac) and [@wecc](https://github.com/wecc) for fixing!
 
 - Fix a regression where a `DS.Model`'s `InternalModel` would not be set
   on init - @bmac [Pull Request](https://github.com/emberjs/data/pull/3262)

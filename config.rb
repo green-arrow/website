@@ -43,6 +43,10 @@ activate :api_docs,
 ###
 
 configure :build do
+  set :spellcheck_allow_file, "./data/spelling-exceptions.txt"
+  activate :spellcheck,
+    ignore_selector: '.CodeRay, a[href*="twitter.com"], a[href*="github.com"], code',
+    page: /^(?!.*stylesheets|.*javascript|.*fonts|.*images|.*analytics|.*public\-key\.txt).*$/
   activate :minify_css
   activate :minify_javascript, ignore: /.*examples.*js/
 end

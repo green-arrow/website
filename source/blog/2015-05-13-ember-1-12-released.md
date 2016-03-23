@@ -172,7 +172,7 @@ export default {
 ```
 
 To define an instance initializer in globals mode use the `Ember.Application.instanceInitializer`
-method. For more information about instance intializers see the
+method. For more information about instance initializers see the
 implementation in [#10256](https://github.com/emberjs/ember.js/pull/10256).
 
 Thanks to [@tomdale](https://twitter.com/tomdale), [@wycats](https://twitter.com/wycats) and

@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "middleman-spellcheck"
 gem "redcarpet"
 gem "activesupport"
 gem "highline"

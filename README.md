@@ -2,6 +2,19 @@
 
 The website for the Ember.js project.
 
+### Dependencies
+
+The Ember.js website is built with Middleman, which runs on Ruby 1.9.3 or newer
+(2.0.0 recommended).
+
+During build, Middleman will require Aspell to look for misspellings. On Macs, it can be installed via Homebrew:
+
+``` sh
+brew install aspell --with-lang-en
+```
+
+On Windows, you can download an [installer](http://aspell.net/win32/), but unfortunately it is unmaintained. On Linux, you can install with your distribution's package manager. On all platforms, you can also [build the most recent version from source](http://aspell.net/man-html/Installing.html).
+
 ### Contributing
 
 To get started:
@@ -28,6 +41,11 @@ rake findorganizers [force=true]
 
 The force=true flag will overwrite all existing organizer data
 ```
+
+#### Spellchecking
+
+If you have a false hit during spellchecking, you can add the word to `/data/spelling-exceptions.txt`.
+Words are line seperated and case insensitive.
 
 #### API Documentation
 

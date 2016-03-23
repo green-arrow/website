@@ -424,7 +424,7 @@ good chance that they will land in 1.13.1, which will be released in
 parallel with 2.0-beta. As I said in the beginning of this post, we will
 likely backport a few features to the 1.13.x series in order to ease the
 transition. Because of the proximity to Ember 2.0 and the impact of this
-change on the programming model, routable components are a good
+change on the programming model, routeable components are a good
 candidate for backporting.
 
 Whenever we land these features precisely, we are committed to making

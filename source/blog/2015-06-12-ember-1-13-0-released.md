@@ -418,7 +418,7 @@ All view APIs are removed in Ember 2.0. This includes:
 * `Ember.Select` and `{{view "select"}}`
 * `Ember.Checkbox` is not removed, but will become a component instead of a view
 
-The most commonly used parts of the `view` API will be supported into the forseeable future via a core-supported addon.
+The most commonly used parts of the `view` API will be supported into the foreseeable future via a core-supported addon.
 
 All Handlebars APIs are removed in Ember 2.0. This includes:
 

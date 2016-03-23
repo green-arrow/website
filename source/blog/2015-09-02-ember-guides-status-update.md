@@ -24,7 +24,7 @@ Here's what you can expect in the coming weeks and months:
 
 Until recently, the Ember Guides and API documentation were maintained by the same developers who wrote the code for Ember.js itself. As the burden has grown, the developers bringing you Ember have stopped being able to tackle both writing the code and documenting it. We've realized that we need a more pragmatic and structured approach to keeping the documentation up-to-date.
 
-We’ve created a new Docs subteam to help drive the direction of the documentation and help make sure that new features always include documentation. It includes existing Ember core team members, along with fresh faces @locks and @michaelrkn. With extra bandwidth from members who are focused exclusively on documentation, we've already made great strides in improving the documentation and filling in missing pieces.
+We’ve created a new Docs subteam to help drive the direction of the documentation and help make sure that new features always include documentation. It includes existing Ember core team members, along with fresh faces [@locks](https://github.com/locks) and [@michaelrkn](https://github.com/michaelrkn). With extra bandwidth from members who are focused exclusively on documentation, we've already made great strides in improving the documentation and filling in missing pieces.
 
 Additionally, the team has agreed that **no new feature will land in a stable release of Ember without documentation and updates to relevant guides**. We don’t want documentation to languish again.
 
